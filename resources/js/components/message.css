@@ -1,0 +1,29 @@
+.container{
+    overflow-y: scroll;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(150deg, #726f6f, #ffa87a, #ffffff);
+}
+::-webkit-scrollbar{
+    width: 1px;
+}
+
+.sender{
+    background: white;
+    /* padding: 10px; */
+    border-radius: 10px;
+    word-wrap: break-word;
+    padding: 7px 10px;
+    box-shadow: inset 0 0 32px rgb(0 0 0 / 8%),
+                inset 0 16px 16px -16px rgb(0 0 0 / 10%);
+
+}
+.receiver{
+    word-wrap: break-word;
+    padding: 7px 10px;
+    box-shadow: inset 0 0 32px rgb(0 0 0 / 8%),
+                inset 0 16px 16px -16px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+    background: #5000c0;
+    color: white;
+
+}
